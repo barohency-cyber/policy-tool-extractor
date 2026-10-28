@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>数字政府政策工具分析报告</title><style>
+:root { --ink:#1c1c1c; --muted:#6b6b6b; --line:#e3e3e3; }
+* { box-sizing: border-box; }
+body { margin:0; padding:44px 20px; color:var(--ink); background:#fff;
+       font-family:"Source Han Sans SC","Noto Sans CJK SC","Microsoft YaHei",system-ui,sans-serif;
+       line-height:1.7; font-size:15px; }
+.wrap { max-width: 880px; margin: 0 auto; }
+h1 { font-size:28px; margin:0 0 4px; }
+h2 { font-size:18px; margin:40px 0 10px; padding-bottom:6px; border-bottom:2px solid var(--ink); }
+h3 { font-size:14px; margin:22px 0 6px; color:var(--muted); }
+.sub { color:var(--muted); font-size:13px; margin-bottom:28px; }
+.kpis { display:flex; gap:12px; flex-wrap:wrap; margin:20px 0; }
+.kpi { flex:1 1 150px; border:1px solid var(--line); border-radius:8px; padding:12px 14px; }
+.kpi b { display:block; font-size:24px; }
+.kpi span { color:var(--muted); font-size:12px; }
+table { width:100%; border-collapse:collapse; margin:10px 0; font-size:13.5px; }
+th,td { text-align:left; padding:6px 9px; border-bottom:1px solid var(--line); }
+th { color:var(--muted); font-size:12.5px; font-weight:600; }
+td.num, th.num { text-align:right; font-variant-numeric: tabular-nums; }
+.note { background:#f7f7f5; border-left:3px solid #c9c9c2; padding:10px 14px;
+        font-size:13px; color:#444; margin:14px 0; }
+.foot { margin-top:48px; padding-top:14px; border-top:1px solid var(--line);
+        color:var(--muted); font-size:12px; }
+code { background:#f2f2ef; padding:1px 5px; border-radius:3px; font-size:12.5px; }
+</style></head>
+<body><div class="wrap">
+<h1>数字政府政策工具分析报告</h1>
+<div class="sub">生成日期 2026-10-27 · policy-tool-extractor · 关键词词典法（Rothwell &amp; Zegveld 三分法）</div>
+
+<div class="kpis">
+  <div class="kpi"><b>4</b><span>政策文本</span></div>
+  <div class="kpi"><b>918</b><span>关键词总词次</span></div>
+  <div class="kpi"><b>14</b><span>被使用的子工具</span></div>
+  <div class="kpi"><b>公共服务</b><span>最高频子工具（276 次）</span></div>
+</div>
+
+<h2>一、一级类目分布</h2>
+<svg viewBox="0 0 780 107" width="100%" height="107" xmlns="http://www.w3.org/2000/svg"><text x="0" y="21" font-size="12.5" fill="#333">供给型</text><rect x="150" y="4" width="560.0" height="24" rx="3" fill="#2f6f9f" opacity="0.85"/><text x="718" y="21" font-size="12.5" fill="#555">455</text><text x="0" y="54" font-size="12.5" fill="#333">环境型</text><rect x="150" y="37" width="545.2" height="24" rx="3" fill="#4d8b62" opacity="0.85"/><text x="703" y="54" font-size="12.5" fill="#555">443</text><text x="0" y="87" font-size="12.5" fill="#333">需求型</text><rect x="150" y="70" width="24.6" height="24" rx="3" fill="#c9722f" opacity="0.85"/><text x="183" y="87" font-size="12.5" fill="#555">20</text></svg>
+<table><thead><tr><th>类目</th><th class="num">词次</th><th class="num">占比</th></tr></thead>
+<tbody><tr><td>供给型</td><td class='num'>455</td><td class='num'>49.6%</td></tr><tr><td>环境型</td><td class='num'>443</td><td class='num'>48.3%</td></tr><tr><td>需求型</td><td class='num'>20</td><td class='num'>2.2%</td></tr></tbody></table>
+
+<h2>二、二级子工具（词次）</h2>
+<svg viewBox="0 0 780 386" width="100%" height="386" xmlns="http://www.w3.org/2000/svg"><text x="0" y="18" font-size="12.5" fill="#333">公共服务</text><rect x="150" y="4" width="560.0" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="718" y="18" font-size="12.5" fill="#555">276</text><text x="0" y="45" font-size="12.5" fill="#333">法规管制</text><rect x="150" y="31" width="525.5" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="684" y="45" font-size="12.5" fill="#555">259</text><text x="0" y="72" font-size="12.5" fill="#333">策略性措施</text><rect x="150" y="58" width="227.2" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="385" y="72" font-size="12.5" fill="#555">112</text><text x="0" y="99" font-size="12.5" fill="#333">信息支持</text><rect x="150" y="85" width="182.6" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="341" y="99" font-size="12.5" fill="#555">90</text><text x="0" y="126" font-size="12.5" fill="#333">技术支持</text><rect x="150" y="112" width="131.9" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="290" y="126" font-size="12.5" fill="#555">65</text><text x="0" y="153" font-size="12.5" fill="#333">目标规划</text><rect x="150" y="139" width="119.7" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="278" y="153" font-size="12.5" fill="#555">59</text><text x="0" y="180" font-size="12.5" fill="#333">人才培养</text><rect x="150" y="166" width="36.5" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="195" y="180" font-size="12.5" fill="#555">18</text><text x="0" y="207" font-size="12.5" fill="#333">金融支持</text><rect x="150" y="193" width="20.3" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="178" y="207" font-size="12.5" fill="#555">10</text><text x="0" y="234" font-size="12.5" fill="#333">海外交流</text><rect x="150" y="220" width="18.3" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="176" y="234" font-size="12.5" fill="#555">9</text><text x="0" y="261" font-size="12.5" fill="#333">政府采购</text><rect x="150" y="247" width="16.2" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="174" y="261" font-size="12.5" fill="#555">8</text><text x="0" y="288" font-size="12.5" fill="#333">资金投入</text><rect x="150" y="274" width="12.2" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="170" y="288" font-size="12.5" fill="#555">6</text><text x="0" y="315" font-size="12.5" fill="#333">税收优惠</text><rect x="150" y="301" width="6.1" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="164" y="315" font-size="12.5" fill="#555">3</text><text x="0" y="342" font-size="12.5" fill="#333">贸易管制</text><rect x="150" y="328" width="4.1" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="162" y="342" font-size="12.5" fill="#555">2</text><text x="0" y="369" font-size="12.5" fill="#333">价格补贴</text><rect x="150" y="355" width="2.0" height="20" rx="3" fill="#8a8a8a" opacity="0.85"/><text x="160" y="369" font-size="12.5" fill="#555">1</text></svg>
+<table><thead><tr><th>类目</th><th>子工具</th><th class="num">词次</th><th class="num">篇次</th><th class="num">覆盖率</th></tr></thead>
+<tbody><tr><td>供给型</td><td>公共服务</td><td class='num'>276</td><td class='num'>4</td><td class='num'>100.0%</td></tr><tr><td>供给型</td><td>信息支持</td><td class='num'>90</td><td class='num'>4</td><td class='num'>100.0%</td></tr><tr><td>供给型</td><td>技术支持</td><td class='num'>65</td><td class='num'>4</td><td class='num'>100.0%</td></tr><tr><td>供给型</td><td>人才培养</td><td class='num'>18</td><td class='num'>4</td><td class='num'>100.0%</td></tr><tr><td>供给型</td><td>资金投入</td><td class='num'>6</td><td class='num'>3</td><td class='num'>75.0%</td></tr><tr><td>环境型</td><td>法规管制</td><td class='num'>259</td><td class='num'>4</td><td class='num'>100.0%</td></tr><tr><td>环境型</td><td>策略性措施</td><td class='num'>112</td><td class='num'>4</td><td class='num'>100.0%</td></tr><tr><td>环境型</td><td>目标规划</td><td class='num'>59</td><td class='num'>4</td><td class='num'>100.0%</td></tr><tr><td>环境型</td><td>金融支持</td><td class='num'>10</td><td class='num'>2</td><td class='num'>50.0%</td></tr><tr><td>环境型</td><td>税收优惠</td><td class='num'>3</td><td class='num'>3</td><td class='num'>75.0%</td></tr><tr><td>需求型</td><td>海外交流</td><td class='num'>9</td><td class='num'>3</td><td class='num'>75.0%</td></tr><tr><td>需求型</td><td>政府采购</td><td class='num'>8</td><td class='num'>2</td><td class='num'>50.0%</td></tr><tr><td>需求型</td><td>贸易管制</td><td class='num'>2</td><td class='num'>2</td><td class='num'>50.0%</td></tr><tr><td>需求型</td><td>价格补贴</td><td class='num'>1</td><td class='num'>1</td><td class='num'>25.0%</td></tr></tbody></table>
+
+<h2>三、分省明细</h2>
+<table><thead><tr><th>文件</th><th class="num">字符数</th><th class="num">总词次</th><th class="num">命中子工具</th></tr></thead>
+<tbody><tr><td>四川_四川省“十四五”数字政府建设规划_正文.txt</td><td class='num'>30538</td><td class='num'>499</td><td class='num'>13</td></tr><tr><td>广东_广东省人民政府关于进一步深化数字政府改革建设的实施意见.txt</td><td class='num'>12041</td><td class='num'>211</td><td class='num'>11</td></tr><tr><td>浙江_浙江省人民政府关于深化数字政府建设的实施意见.txt</td><td class='num'>9414</td><td class='num'>143</td><td class='num'>11</td></tr><tr><td>辽宁_辽宁省数字政府建设实施方案（2025—2027年）.txt</td><td class='num'>4289</td><td class='num'>65</td><td class='num'>9</td></tr></tbody></table>
+
+<h2>四、编码信度</h2>
+<p class="note">尚未进行双人编码。生成方式：<code>python code/extractor.py --binary</code> 得到 0/1 编码矩阵，复制一份由第二位编码员独立修订后，运行 <code>python code/reliability.py --a ... --b ...</code>。</p>
+
+<h2>五、方法说明（可直接改写进论文）</h2>
+<p>本研究以 Rothwell &amp; Zegveld（1985）的政策工具三分法为框架，将政策文本中的工具表述
+划分为供给型、环境型、需求型三类，并细分为 14 个二级子工具。采用关键词词典法进行机器初筛，
+每条命中均保留所在文本以便人工复核。编码手册见 <code>docs/coding_sheet.md</code>，
+词典实现见 <code>code/extractor.py</code>。</p>
+<p>统计报告两种口径：<strong>词次</strong>（关键词在全文出现的总次数，反映表述强度）与
+<strong>篇次</strong>（出现该子工具的文档数，反映使用广度）。两者不可混用，文中已分别标注。</p>
+<p><strong>可复现性声明</strong>：本报告由 <code>code/extractor.py</code> 与
+<code>code/report.py</code> 自动生成，输入为 <code>data/raw/</code> 下的政策文本，
+执行相同命令可逐字节复现。</p>
+
+<div class="foot">
+policy-tool-extractor · 关键词词典法 · 政策文本版权归原发布机关，仅用于学术研究
+</div>
+</div></body></html>

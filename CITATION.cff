@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "如果本仓库的编码框架或脚本对你的研究有帮助，请按以下格式引用。"
+title: "policy-tool-extractor: 数字政府政策文本的政策工具提取工具"
+abstract: >-
+  面向省级数字政府建设文件的政策工具提取工具。基于 Rothwell & Zegveld 三分法
+  （供给型、环境型、需求型）构建 14 个二级子工具的关键词词典，批量读取政策文本，
+  输出词次与篇次两种口径的工具频次表。附编码手册、样本元信息与文献题录。
+version: "1.0.0"
+date-released: "2026-10-26"
+license: MIT
+type: software
+
+authors:
+  - name: "barohency-cyber"
+
+keywords:
+  - 政策工具
+  - 数字政府
+  - 政策文本分析
+  - 计算社会科学
+  - Rothwell & Zegveld
+
+references:
+  - type: article
+    title: "Reindustrialization and Technology"
+    authors:
+      - family-names: Rothwell
+        given-names: Roy
+      - family-names: Zegveld
+        given-names: Walter
+    year: 1985
+    publisher:
+      name: "Longman"
